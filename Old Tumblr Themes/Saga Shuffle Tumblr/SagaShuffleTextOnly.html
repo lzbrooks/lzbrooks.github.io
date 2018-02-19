@@ -1,0 +1,157 @@
+<html>
+    <body>
+<div class="text inner">
+    <h1 class="title"><a href="">About</a></h1>
+<!-- Put only this html inside page: -->    
+    <div id="game-spread">
+        Number of players: 
+        <input type="text" name="player_number" id="player_number_input" />
+    </div>
+<!-- Ends here -->
+</div>
+        
+    
+ 
+<script src="https://code.jquery.com/jquery-1.11.2.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore.js" type="text/javascript"></script>
+        
+        
+        
+<script type="text/javascript">
+    var appendPoint = "#game-spread";
+    
+    //Get number of players
+    $("#player_number_input").keypress(function(e) {
+        if(e.which == 13) {
+            var numPlayers = $("#player_number").val();
+            //Start Game Main
+            gameMain();
+        }
+    });
+    
+    //Lay out full game spread
+    function gameMain() {
+        //Lay out Setting cards
+        $(appendPoint).html("<b>Setting:</b> <br />");
+
+        //Setting Deck
+        var timeDeck = new Array;
+        timeDeck[0] = 'Past'
+        timeDeck[1] = 'Present'
+        timeDeck[2] = 'Future'
+
+        var placeDeck = new Array;
+        placeDeck[0] = 'Land'
+        placeDeck[1] = 'Sea'
+        placeDeck[2] = 'Sky'
+
+        var moodDeck = new Array;
+        moodDeck[0] = 'Anger'
+        moodDeck[1] = 'Grief'
+        moodDeck[2] = 'Joy'
+        
+        
+        
+        var setting = new Array;
+        setting = _.sample(placeDeck, 1);
+        setting.concat(_.sample(timeDeck, 1));
+        setting.concat(_.sample(moodDeck, 1));
+        
+        prettyList(setting);
+
+        
+        //Lay out Plot cards
+//        $(appendPoint).append("<br /> <b>Plot:</b> <br />");
+
+//        var plot = new Array;
+//        plot = _.sample(objectiveDeck, 1);
+//        plot.concat(_.sample(complicationDeck, 3));
+//        plot.concat(_.sample(advantageDeck, 2));
+        
+//        prettyList(plot);
+
+
+        //Lay out Player cards
+ //       $(appendPoint).append("<br />");
+        //...
+//        prettyList(pokerDeck, 6);
+    }
+        
+    
+    
+    
+    //Append numCard randomly sampled elements from cardList seperated with a comma and space
+    function prettyRandomList(cardList, numCards){ 
+        var shortList = new Array;
+        shortList = _.sample(cardList, numCards);
+        for (var i = 0; i < (shortList.length - 1); i++) {
+            $(appendPoint).append(shortList[i] + ", ");
+        }
+        $(appendPoint).append(shortList[i]);
+    }
+    
+    
+    
+    //Append elements from cardList in order, seperated with a comma and space
+    function prettyList(cardList){         
+        for (var i = 0; i < (cardList.length - 1); i++) {
+            $(appendPoint).append(cardList[i] + ", ");
+        }
+        $(appendPoint).append(cardList[i]);
+    }
+    
+    //Poker Deck
+    var pokerDeck = new Array;
+    pokerDeck[0] = '1 <3'
+    pokerDeck[1] = '2 <3'
+    pokerDeck[2] = '3 <3'
+    pokerDeck[3] = '4 <3'
+    pokerDeck[4] = '5 <3'
+    pokerDeck[5] = '6 <3'
+    pokerDeck[6] = '7 <3'
+    pokerDeck[7] = '8 <3'
+    pokerDeck[8] = '9 <3'
+    pokerDeck[9] = '10 <3'
+    pokerDeck[10] = 'J <3'
+    pokerDeck[11] = 'Q <3'
+    pokerDeck[12] = 'K <3'
+    //... (copy in rest later)
+    
+    //Character Deck
+    var classDeck = new Array;
+    classDeck[0] = 'Warrior'
+    classDeck[1] = 'Thief'
+    classDeck[2] = 'Healer'
+
+    var originDeck = new Array;
+    originDeck[0] = 'Land'
+    originDeck[1] = 'Sky'
+    originDeck[2] = 'Sea'
+
+    var motiveDeck = new Array;
+    motiveDeck[0] = 'Achievement'
+    motiveDeck[1] = 'Authority'
+    motiveDeck[2] = 'Loyalty'
+    
+
+    
+    //Plot Deck
+    var objectiveDeck = new Array;
+    objectiveDeck[0] = 'Epic'
+    objectiveDeck[1] = 'Dramatic'
+    objectiveDeck[2] = 'Epistemic'
+
+    var complicationDeck = new Array;
+    complicationDeck[0] = 'Mental'
+    complicationDeck[1] = 'Physical'
+    complicationDeck[2] = 'Emotional'
+
+    var advantageDeck = new Array;
+    advantageDeck[0] = 'Item'
+    advantageDeck[1] = 'Person'
+    advantageDeck[2] = 'Creature'
+
+    
+</script>
+    </body>
+    </html>

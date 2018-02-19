@@ -1,0 +1,56 @@
+Saga Shuffle Reudx
+
+Welcome!
+Here players collaborate on the setting, plot, and characters of the game using these saga cards as basic building blocks and then roleplay the tale using the regular ("poker") deck.
+
+RD Deck is not replenished.  When there are no more cards, the game is over.
+
+Fate => Consequence => Effect?
+
+-And
+lose: lose cards played + 1 card from your hand
+win: draw 1 card, Advantages = 1
+-Is
+lose: lose cards played
+win: draw 1 card, keep Advantages
+-But
+lose: lose cards played, keep Advantages
+win: draw 1 card
+
+-ACHIEVEMENT / Perfection / Organization/Order / Fairness / Honesty / Balance / Independence / Fun
+ -You hold an honest heart and a belief in balance and order.
+-AUTHORITY / Political or Personal Power / Recognition / Social Status / Wealth / Passion
+ -You are a passionate soul with a drive for respect and power.
+-LOYALTY / Trust / Service / Commitment / Religion/Faith / Family / Legacy / Comfort/Safety / Courage / Happiness
+ -You have the courage to trust and commit for those you hold dear.  
+
+Setup:
++Shuffle then deal 6 poker cards to each Payer.
++Separate and shuffle Character, Setting, and Plot decks.
++Brainstorm each of the Scenario steps.
+Scenario:
++Each Player gets 1 of each kind of Character card.
++Deal 1 of each kind of Setting card.
++Deal 1 Objective
++Deal 3 Complications
++Deal 2 Advantages
++Players bid for Advantages with poker cards (Aces low).
+Game Play:
++Order of play is clockwise from dealer
++Each Player: 
+  -Introduce your character (or the scene)
+  -Try to do an interaction
++Another Player must oppose the interaction.
++Decide general effects of winning and losing before playing cards.
+Interaction:
++Play 1 poker card against the opposing Player.
+(Using an Advantage gives one more poker card to play.)
++Both Players match cards played.
++High total wins.
++When there are no more cards, the game is over.
+Effects:
++For each Player in the interaction:
+  -Deal poker cards on the Effect cards.
+  -The Effect with the high card is the effect of the interaction.
++The next Player continues directly with these effects into their next interaction.
+

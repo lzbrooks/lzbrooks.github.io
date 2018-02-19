@@ -1,0 +1,226 @@
+CBRPG
+
+Reformatted Rules
+
+Dice cards ==> Fate cards (based on the Tarot cards)
+6-win, extra card
+5-win, normal reward
+4-win but, normal reward
+3-lose but, normal lose cards
+2-lose, normal lose cards
+1-lose, double lose cards
+==>
+Three Fate cards
+-Goat?-but		-Mixed/Balanced
+-Rooster?-normal	-Simple/Plain/Ambivalent
+-Cow?-and		-Spectacular
+-Different meaning depending on whether they won or lost
+-Use the regular card deck to pick out which Fate card
+  -Draw one card for each Fate, highest card is the Fate you got.
+
+Desires ==> Motivations
+-ACHIEVEMENT / Perfection / Organization/Order / Fairness / Honesty / Balance / Independence / Fun
+-AUTHORITY / Political or Personal Power / Recognition / Social Status / Wealth / Passion
+-LOYALTY / Trust / Service / Commitment / Religion/Faith / Family / Legacy / Comfort/Safety / Courage / Happiness
+
+
+This is a card-based roleplaying game where players collaborate to put together the setting, plot, and characters of the game using the special Saga Shuffle cards.  You use the Saga Shuffle specific cards to set up the basic setting, plot, and characters.  You build up a proper story from these basic building blocks and roleplay through this tale using the regular ("poker") deck to add the uncertainty of chance to your character's actions.
+
+Reformatted Rules
+
+1. Setting Up the Game
+
+1a. The Cards
+  -Setting
+    -6 Place
+    -6 Time
+    -6 Mood
+  -Plot
+    -6 Plot
+    -6 Complication
+    -6 Advantage
+      -Help further your character's ambitions.
+  -Character
+    -6 Origin
+    -6 Class
+    -6 Desire
+
+1a. Setting the Scene
+  -Lay out one Place card, one Time card, and one Mood card face-up on the table.  This establishes the outline for the setting of the game.  
+
+  
+1b. Plotting Out the Adventure
+  -Only one Plot card and at least three Complication cards.
+  -Everyone agrees, just from the plot and setting, make a one sentence plot.
+  
+  -The starter plot can be adjusted as necessary by adjusting the amount of plot, obstacles.
+  -Here is an example array:
+  -Put down one Plot card face-up, three Complication cards face-down, and two Advantage cards face-up on the table.  This lays out the skeletal plot of the game.
+  -
+
+  
+1c. Characterizing the Players
+  -Deal one Origin card, one Class card, and one Desire card to each player.  This gives a start to making their characters.
+  -(More than one Character per player is possible, but this is considered a more difficult level of play.)
+  -Set up each person's piece.
+
+
+  
+1d. Developing the Setting, Plot, and Characters
+  -The players collaborate to form the setting, plot, and characters from the Saga Shuffle cards.
+  -The plot needs at least one protagonist character and one antagonist character.
+  -Each Player has their character ("piece").
+  -General setting might be set up through collaboration but players can focus on specific groups or areas and build the "NPCs" of them to flesh out the setting.
+  -The plot needs both protagonist and antagonist Characters to run properly.
+  -Each player can also make and control other Characters' dependants (like servants or apprentices).
+
+
+2. Setting up for the Game Proper
+  -and at least one advantage card.
+  -Shuffle a regular deck of playing cards.
+  -Deal six cards to each player.  These are for performing actions in the plot once the game begins.  
+{
+  Choosing Who Gets the Advantage
+  -Shuffle a regular deck of playing cards.
+  -Deal six cards to each player.
+  -Starting clock-wise from Dealer, each person plays their cards.
+  {
+  -Rules for playable hands:
+    -One or more cards of the same number.  
+    -Values for face cards are: Jack == 11, Queen == 12, King == 13, and Ace == 14. No Jokers.
+  }
+  -The highest number wins the Advantage card.
+    -(Each player's number is a sum of the cards they put down.)
+  -Repeat until each drawn Advantage card has an owner.
+}
+  
+  
+3. Actually Playing the Game (Using the Regular Deck)
+
+3a. Actions in Play
+-Actions that affect the plot require cards - played against the deck or played against the opposing player.
+-Specify your action and the plausible and clear result from said action for success or failure of the action.
+  -7a. Actions Requiring Card Use
+    -Cards are how you influence the plot.
+    -There are two kinds of actions that require use of the Regular Deck:
+      -Actions that don't have an opposing party (like spot checks, picking locks or fighting bears)
+	-These require the player of the character putting down cards against an equal number drawn from the regular deck.
+      -Actions that oppose some other party (like pick-pocketing a guard, dueling for love, or using diplomacy).
+
+3b. Starting Play
+  -Player clockwise from dealer says their character is going to do an action and puts down one of the six card that was dealt earlier. 
+  -The character succeeds at their action if the card played is higher in number than the competing card drawn from the deck or played from the opposing player's hand. 
+  -Cards replenished 
+  
+  
+      
+  7b. Regular Playing Card Rules
+    -Each player can only put down one card for each action unless they use an Advantage card.
+{
+    -Rules for using the Advantage cards:
+      -Using an Advantage card adds a card to that action.
+      -If the player fails that action, they lose Advantage card.  But if the player wins, they keep the Advantage card to use again.
+      -Other player(s) who oppose the action must match the number of cards put down by the player with the Advantage card.
+}  
+    -Getting the highest number means that that character's action succeeds.
+      -(Each player's number is a sum of the cards they put down.)
+    -Every player has a turn in a round, starting clock-wise from the Dealer.
+    -No one gets any new cards until they are dealt out at the beginning of the next Complication.
+      
+  7c. Final Outcome Of Action
+    -S
+    -The Dice cards categorize the final consequences of the conflict
+      -ie. Gain or loss of Regular Deck cards and/or Advantage cards.
+    -Divide the Dice cards into winning (4, 5, 6) and losing (1, 2, 3) cards.
+    -Lay out each three (shuffled) face-down side-by-side.
+      -If the character succeeded in their action, the player chooses one of the winning cards (ie. 4, 5, 6).
+      -If the character failed in their action, the player draws one of the losing cards (ie. 1, 2, 3).
+    -Apply the Dice card.
+    -Continue roleplaying until next conflict or check.
+
+-There isn't any "winner", just a good story.
+
+~~~
+
+Play Strategies
+
+-Main character
+  -One main piece played by their player
+  -Everyone else moves NPCs to get through the complications until their piece becomes the main piece
+  -Like a batton race almost
+  -Journey plot like saiyuki
+  
+-One piece, one round
+  -Everyone else plays NPCs that round
+  -More for close quarters plot
+
+-
+
+~~~
+
+New Motication Cards Research:
+
+Achievement
+Authority
+Balance
+Comfort/Safety
+Commitment
+Courage
+Fairness
+Family
+Fun
+Happiness
+Honesty
+Independence
+Legacy
+Loyalty
+Organization/Order
+Passion
+Perfection
+Political or Personal Power
+Recognition
+Religion/Faith
+Service
+Social Status
+Trust
+Wealth
+
+the needs for achievement, affiliation, or power. These motivators are not inherent; we develop them through our culture and life experiences.
+
+three motivating factors that workers need to stay motivated and excited about what they're doing: equity/fairness, achievement, and camaraderie.
+
+Acceptance, the need for approval
+Curiosity, the need to learn
+Eating, the need for food
+Family, the need to raise children
+Honor, the need to be loyal to the traditional values of one's clan/ethnic group
+Idealism, the need for social justice
+Independence, the need for individuality
+Order, the need for organized, stable, predictable environments
+Physical activity, the need for exercise
+Power, the need for influence of will
+Romance, the need for sex and for beauty
+Saving, the need to collect
+Social contact, the need for friends (peer relationships)
+Social status, the need for social standing/importance
+Tranquility, the need to be safe
+Vengeance, the need to strike back and to compete
+
+cooperation, competition, immersion and achievement
+
+motivated in three ways: material, social and ideological.
+
+~~~
+
+Achievement / Perfection / Organization/Order / Fairness / Honesty / Balance
+Authority / Political or Personal Power / Recognition / Social Status / Wealth
+Independence / Passion / Courage / Happiness / Fun
+Loyalty / Trust / Service / Commitment / Religion/Faith / Family / Legacy / Comfort/Safety
+
+~~~
+
+Achievement / Perfection / Organization/Order / Fairness / Honesty / Balance / Independence / Fun
+Authority / Political or Personal Power / Recognition / Social Status / Wealth / Passion
+Loyalty / Trust / Service / Commitment / Religion/Faith / Family / Legacy / Comfort/Safety / Courage / Happiness
+
+~~~

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- Title Bar -->
+    {block:Description} <meta name="description" content="{MetaDescription}" /> {/block:Description}
+    <title>{block:TagPage}{Tag} - {/block:TagPage} {block:SearchPage}{lang:Search results for SearchQuery} - {/block:SearchPage}{block:PostSummary}{PostSummary} - {/block:PostSummary}{Title}</title>
+
+    <link rel="shortcut icon" href="{Favicon}"/>
+    <link rel="alternate" type="application/rss+xml" title="{Title} RSS" href="{RSS}"/>
+    <link rel="stylesheet" href="http://static.tumblr.com/hznqxps/ivOmgjf8v/normalize.css" />
+    
+    <!-- Customization Options (META) -->
+    <!-- Background -->
+    <meta name="color:Background" content="#f4fbfa" />
+    <meta name="image:Background" content="" />
+    <!-- Body -->
+    <meta name="font:Body" content="Arial, Helvetica, sans-serif"/>
+    <meta name="color:Text" content="#252525" />
+    <meta name="color:Links" content="#979395" />
+    <!-- Masthead (Header)-->
+    <meta name="color:Masthead background" content="#ffffff" />
+    <meta name="color:Masthead text" content="#252525" />
+    <meta name="image:Masthead" content="" />
+    <!-- Sidebar -->
+    <meta name="color:Sidebar background" content="#f4fbfa" />
+    <meta name="color:Sidebar Search background" content="#f4fbfa" />
+    <meta name="color:Sidebar text" content="#f4fbfa" />
+    <!-- Articles (Posts) -->
+    <meta name="color:Post background" content="#f4fbfa" />
+    <!-- Chat Posts -->
+    <meta name="color:Chat even background" content="#f4fbfa" />
+    
+    
+    <!-- CSS Formatting -->
+    <style type="text/css">
+        /* Body CSS */
+        body {
+            background: {color:Background} url('{image:Background}') repeat;
+            color: {color:Text};
+            font-family: {font:Body};
+            font-size: 1.0em;
+        }
+        /* Link CSS */
+        a {
+            color: {color:Links};
+            text-decoration: none;
+        }
+        /* Header CSS */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: normal;
+        }
+        /* Navigation Listing CSS */
+        nav ul {
+           list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+        }
+        /* Post Placement CSS */
+        iframe, img, embed, object, video {
+           max-width: 100%;
+        }
+        /* Masthead CSS */
+        #masthead {
+/*            width: 100%;
+            height: 250px;
+            background: {color:Masthead background} url('{image:Masthead}');
+            background-size: contain;
+*/            margin-bottom: 5%;
+            padding: 1%;
+            text-align: center;
+            
+        }
+        #masthead a {
+            color: {color:Masthead text};
+        }
+        /* Header's Ask, Submit and Custom Page Links CSS */
+        #masthead nav li a {
+            border-bottom: 2px solid {color:Masthead text};
+            margin-right: 0.5%;
+            padding: 0.2%;
+        }
+
+        /* Sidebar CSS */
+        #sidebar {
+            float: right;
+            margin: 0 5%;
+            width: 20%;
+            color: {color:Sidebar text};
+        }
+        .item {
+            margin-bottom: 15%;
+            background: {color:Sidebar background};
+            padding: 1% 5%;
+        }
+        /* Sidebar Avatar CSS */
+        .item img {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+            display: block;
+            border-radius: 50%;
+        }
+        /* Sidebar Search CSS */
+/*
+        .item form input {
+            background: {color:Sidebar Search background};
+            color: {color:Links};
+            border: none;
+            border: 1px solid {color:Background};
+            padding: 2% 1%;
+            width: 96%;
+            margin-bottom: 2%;
+        }
+*/
+        /* Content CSS */
+        #content {
+            margin-left: 5%;
+            width: 65%;
+        }
+        /* Article CSS */
+        #content article {
+            background: {color:Post background};
+            margin-bottom: 5%;
+        }
+        article .inner {
+            display: inline-block;
+            padding: 4%;
+            width: 92%;
+        }
+        /* All Posts Types CSS */
+        .title a {
+            color: {color:Text};
+        }
+        blockquote {
+            background: rgba(0, 0, 0, 0.06);
+            margin: 0;
+            padding: 2%;
+        }
+        /* Photo Post CSS */
+        .photo img {
+            display: block;
+        }
+        /* Photoset Post CSS */
+        .html_photoset {
+            text-align: center;
+            background: rgb(68, 68, 68);
+            padding: 6% 0;
+        }
+        /* Link Post CSS */
+        .link .title a {
+            border-bottom: 2px solid;
+        }
+        /* Chat Post CSS */
+        .chat ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .chat li {
+            padding: 0.5% 2%;
+        }
+        .chat .even {
+            background: {color:Chat even background};
+        }
+        /* Ask Post CSS */
+        .user {
+            font-size: 0.85em;
+            text-align: center;
+            text-transform: uppercase;
+            float: left;
+            margin-right: 3%;
+        }
+        /* Footer (Metadata) CSS */
+        .metadata {
+            background: rgba(0, 0, 0, 0.03);
+            border-top: 1px solid #ADADAD;
+            font-size: 0.9em;
+            padding: 2% 4%;
+        }
+        .metadata ul {
+            width: 100%;
+            display: inline-block;
+        }
+        .metadata ul, #notes ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        /* Tags and Notes CSS */
+        .tags {
+            margin-top: 1% !important;
+        }
+        .tags li {
+            border: 1px solid #353535;
+            padding: 0.5%;
+            background: rgba(0, 0, 0, 0.84);
+        }
+        .index li, .tags li {
+            float: left;
+            margin-right: 2%;
+        }
+        .note {
+            border-bottom: 1px solid white;
+            padding: 1% 0;
+        }
+        /* Pagination CSS */
+        #pagination li a {
+            background: {color:Post background};
+            float: right;
+            margin: 0 0 2% 1%;
+            padding: 1%;
+        }
+        /* Content Rounding CSS */
+        #content article, .item {
+            border-radius: 0.5em;
+        }
+        
+        
+    </style>
+
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header id="masthead">
+            <h1><a href="/" title="{lang:Home}">{Title}</a></h1>
+            <!-- Ask, Submit, and Custom Pages -->
+            <nav>
+                <ul>
+                    {block:HasPages}
+                    {block:Pages}
+                    <li> <a href="{URL}">{Label}</a></li>
+                    {/block:Pages}
+                    {/block:HasPages}
+                    {block:SubmissionsEnabled}
+                    <li> <a href="/submit">{SubmitLabel}</a></li>
+                    {/block:SubmissionsEnabled}
+                    {block:AskEnabled}
+                    <li> <a href="/ask">{AskLabel}</a></li>
+                    {/block:AskEnabled}
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Side Bar -->
+        <aside id="sidebar">
+        <div class="item">
+            <!-- Avatar -->
+            <img src="{PortraitURL-128}"/>
+            <!-- Description -->
+            {block:Description}
+            <h2>{lang:About}</h2>
+            <p>{Description}</p>
+            {block:Description}
+    
+            <!-- Search -->
+<!--            <h2>Search</h2>
+            <form action="/search" method="get">
+                <input type="text" name="q" value="{SearchQuery}" />
+            </form>
+-->
+        </div>
+        </aside>
+ 
+        <!-- Content -->
+        <div id="content">
+            {block:Posts}
+            <article>
+                <!-- Text Post -->
+                {block:Text}
+                <div class="text inner">
+                    {block:Title}<h1 class="title"><a href="{Permalink}">{Title}</a></h1>{/block:Title}
+                    {Body}
+                {/block:Text}
+
+                <!-- Photo Post -->
+                {block:Photo}
+                <div class="photo inner">
+                    {LinkOpenTag}<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}" />{LinkCloseTag}
+                    {block:Caption}{Caption}{/block:Caption}
+                {/block:Photo}
+
+                <!-- Photoset Post -->
+                {block:Photoset}
+                <div class="photoset inner">
+                    {Photoset-700}
+                    {block:Caption}{Caption}{/block:Caption}
+                {/block:Photoset}
+
+                <!-- Quote Post -->
+                {block:Quote}
+                <div class="quote inner">
+                    <blockquote>{Quote}</blockquote>
+                    {block:Source}<cite> {Source} </cite>{/block:Source}
+                {/block:Quote}
+
+                <!-- Link Post -->
+                {block:Link}
+                <div class="link inner">
+                    <h1 class="title"><a href="{URL}">{Name}</a></h1>
+                    {block:Description}{Description}{/block:Description}
+                {/block:Link}
+
+                <!-- Chat Post -->
+                {block:Chat}
+                <div class="chat inner">
+                    <ul>
+                    {block:Lines}<li class="{Alt}"><p>{block:Label}<strong>{Label}</strong>{/block:Label} {Line} </p></li>{/block:Lines}
+                    </ul>
+                {/block:Chat}
+
+                <!-- Audio Post -->
+                {block:Audio}
+                <div class="audio inner">
+                    {block:TrackName}<h1 class="title"><a href="{Permalink}">{TrackName}</a></h1>{/block:TrackName}
+                    {block:AlbumArt}<img src="{AlbumArtURL}" width="500" height="500"/>{/block:AlbumArt}
+                    {AudioPlayerBlack}
+                    {block:Caption}{Caption}{/block:Caption}
+                {/block:Audio}
+
+                <!-- Video Post -->
+                {block:Video}
+                <div class="video inner">
+                    {Video-700}
+                    {block:Caption}{Caption}{/block:Caption}
+                {/block:Video}
+
+                <!-- Answer Post -->
+                {block:Answer}
+                <div class="answer inner">
+                    <h1 class="title">{Question}</h1>
+                    <div class="user"><img src="{AskerPortraitURL-96}"/><p>{Asker}</p></div>
+                    {Answer}
+                {/block:Answer}
+        </div>
+
+            <!-- Footer Metadata on ALL Posts -->
+            {block:Date}
+            <footer class="metadata">
+            
+                <!-- Footer Metadata on the Index Page Posts -->
+                <ul class="index">
+                    <li><a href="{Permalink}"> <time datetime="{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}">{DayOfMonth} {Month} {Year}</time> </a></li>
+
+                    {block:NoteCount}<li><a class="notecount" href="{Permalink}#notes">{NoteCountWithLabel}</a></li>{/block:NoteCount}
+                
+                    {block:ContentSource}
+                    <li><a href="{SourceURL}">{lang:Source}:{block:NoSourceLogo}{SourceTitle}{/block:NoSourceLogo}
+                    {block:SourceLogo}<img src="{BlackLogoURL}" width="{LogoWidth}"height="{LogoHeight}" alt="{SourceTitle}" />{/block:SourceLogo}</a></li>
+                    {/block:ContentSource} 
+                </ul>
+
+                <!-- Footer Metadata on the Permalink Pages -->
+                {block:PermalinkPage}
+                    {block:HasTags}
+                        <ul class="tags">
+                            {block:Tags}<li><a href="{TagURL}">{Tag}</a> </li>{/block:Tags}
+                       </ul>
+                    {/block:HasTags}
+            
+                    {block:PostNotes}
+                    <div id="notes">
+                        {PostNotes}
+                    </div>
+                    {/block:PostNotes} 
+                {/block:PermalinkPage} 
+            </footer>
+            {/block:Date}
+            </article>
+            {/block:Posts}
+            
+            <!-- Pages Navigation -->
+            {block:Pagination}
+        <nav id="pagination">
+            <ul>
+                {block:NextPage}<li><a href="{NextPage}">Next page</a></li>{/block:NextPage}
+                {block:PreviousPage}<li><a href="{PreviousPage}">Previous page</a></li>{/block:PreviousPage}
+            </ul>
+        </nav>
+        {/block:Pagination}
+        </div>
+    </body>
+</html>

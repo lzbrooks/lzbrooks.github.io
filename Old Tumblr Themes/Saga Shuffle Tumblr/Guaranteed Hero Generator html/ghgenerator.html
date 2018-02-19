@@ -1,0 +1,89 @@
+<html>
+    <body>
+<div class="text inner">
+    <h1 class="title"><a href="">About</a></h1>
+    <p>This is a test.</p>
+    <p><a href="" id="button">Generate Character</a></p>
+    <div id="character-list"></div>
+</div>
+        
+<script type="text/javascript" src="http://static.tumblr.com/wn87cit/6sYn7wlps/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/wn87cit/osSn9ckuh/underscore-min.js"></script>
+
+<script type="text/javascript">
+    var appendPoint = "#character-list";
+    
+    //Single random element from array
+    function single(stuff){ 
+        var stuffx = Math.floor(Math.random() * stuff.length);
+        return(stuff[stuffx]);
+    }
+    
+    $("#button").on("click", function(){
+        //Character
+//        $(this).closest(appendPoint).append("<br /><b>Character</b>");
+        
+        //Origin
+        $(appendPoint).html("<b>Origin:</b> ");
+        //Make more layered later?
+        var origin = new Array;
+        origin[0] = 'Standard'
+        origin[1] = 'Off-beat'
+        origin[2] = 'Psionic'
+        origin[3] = 'Magician'
+        origin[4] = 'Tech'
+        origin[5] = 'Mod'
+        $(appendPoint).append(single(origin));
+        
+        //Animal
+        $(appendPoint).append("<br /><b>Animal:</b> ");
+        var animal = new Array;
+        animal[0] = 'Armadillo'
+        animal[1] = 'Badger'
+        animal[2] = 'Bear'
+        animal[3] = 'Beaver'
+        animal[4] = 'Boar'
+        animal[5] = 'Bobcat'
+        $(appendPoint).append(single(animal));
+        
+        //Power
+        $(appendPoint).append("<br /><b>Power:</b> ");
+        var power = new Array;
+        power[0] = 'Animal-themed'
+        power[1] = 'Strength'
+        power[2] = 'Speed'
+        power[3] = 'Durability'
+        power[4] = 'Agility'
+        power[5] = 'Sight'
+        $(appendPoint).append(single(power));
+        
+        //Character Traits
+        $(appendPoint).append("<br /><b>Character Traits:</b> ");
+        //Positive
+        var characterTraitPositive = new Array;
+        characterTraitPositive[0] = 'Accommodating'
+        characterTraitPositive[1] = 'Adaptable'
+        characterTraitPositive[2] = 'Adventurous'
+        characterTraitPositive[3] = 'Affectionate'
+        characterTraitPositive[4] = 'Agreeable'
+        characterTraitPositive[5] = 'Amusing'
+        //Multiple Positive Trait Handling
+        var positiveTraitList = new Array;
+        positiveTraitList = _.sample(characterTraitPositive, 3);
+        for (var i = 0; i < positiveTraitList.length; i++) {
+            $(appendPoint).append("<br />" + positiveTraitList[i]);
+        }
+        //Negative
+        var characterTraitNegative = new Array;
+        characterTraitNegative[0] = 'Absent-minded'
+        characterTraitNegative[1] = 'Aloof'
+        characterTraitNegative[2] = 'Anxious'
+        characterTraitNegative[3] = 'Apathetic'
+        characterTraitNegative[4] = 'Apprehensive'
+        characterTraitNegative[5] = 'Bewildered'
+        $(appendPoint).append("<br />" + single(characterTraitNegative));
+        return false;
+    });
+</script>
+    </body>
+    </html>

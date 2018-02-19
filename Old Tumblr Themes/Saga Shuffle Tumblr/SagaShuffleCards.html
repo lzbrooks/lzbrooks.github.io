@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Saga Shuffle</title>
+
+<!-- ========= -->
+<!--    CSS    -->
+<!-- ========= -->
+       
+        <!-- border-radius: 0.5em; -->
+        <style type="text/css">
+            .card {
+                display: inline-block;
+                float:left; <!--double check about float-->
+                width: 25px; <!--make adjustable!-->
+                height: 50px;
+                border-radius: 0.5em;
+                <!--background-color: gold;-->
+            }
+            .row {
+                display: block;
+                <!--background-color: black;-->
+            }
+            .board {
+                display: inline-block;
+                background-color: purple;
+            }
+            #textBox {
+                display: inline-block;
+                background-color: gold;
+            }
+
+        </style>  
+    </head>
+    <body>
+
+<!-- ========= -->
+<!-- Your HTML -->
+<!-- ========= -->
+
+        <section id="sagashuffle">   
+            <!-- display playerNumber, then playerName, then remove -->
+            <input id="playerNumber" placeholder="How many players for this game?" autofocus>
+            <input id="playerName" placeholder="Please enter player names here.">
+            <!-- assign each player a playerName -->
+            <!-- keep asking for another name after enter until number playerName == playerNumber -->
+            <section id="main">
+                <section id="gameBoard"></section>
+                <section id="textBox"></section>
+            </section>
+        </section>
+
+<!-- Templates -->
+
+        <!-- Card, Row, GameBoard, PlayerPanel=a board w/one row for playerName, TextBox and Game. -->
+        
+        <!--Card Template-->
+        <script type="text/template" id="card-template">
+            <div class="card">
+            </div>
+        </script>
+        
+        <!-- Row Template-->
+        <script type="text/template" id="row-template">
+            <div class="row">
+            </div>
+        </script>
+        
+        <!--GameBoard Template-->
+        <script type="text/template" id="gameBoard-template">
+            <div class="board">
+            </div>
+        </script>
+        
+        <!--PlayerPanel Template-->
+        <script type="text/template" id="playerPanel-template">
+            
+        </script>
+        
+        <!--TextBox Template-->
+        <script type="text/template" id="textBox-template">
+            
+        </script>
+        
+        <!--Game Template-->
+        <script type="text/template" id="game-template">
+            
+        </script>
+
+<!-- ========= -->
+<!-- Libraries -->
+<!-- ========= -->
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.3/underscore-min.js" type="text/javascript"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.2/backbone-min.js" type="text/javascript"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.0/backbone.localStorage-min.js" type="text/javascript"></script> 
+
+<!-- =============== -->
+<!-- Javascript code -->
+<!-- =============== -->
+
+        <script type="text/javascript">
+      /*      var AppView = Backbone.View.extend({
+          // el - stands for element. Every view has a element associate in which HTML content will be rendered.
+          el: $('#container'),
+          //template which has the placeholder 'who' to be substituted later
+          template: _.template("<h3>Hello <%= who %><h3>"),
+          // The first function called when this view is instantiated.
+          initialize: function(){
+              this.render();
+          },
+          render: function(){
+              this.$el.html(this.template({who: 'Player!'}));
+          }
+      });
+
+      var appView = new AppView();*/
+
+            'use strict';
+
+            var app = {}; // create namespace for our app
+
+//--------------
+// Models
+//--------------
+      //Card, Row, GameBoard, PlayerPanel=a board w/one row for playerName, TextBox and Game.      
+            app.Card = Backbone.Model.extend({
+                defaults: {
+                    cardTitle: ''
+                }
+            });
+            
+            //make this a collection of card
+            app.Row = Backbone.Model.extend({
+            });
+            
+            //make this a collection of row
+            app.GameBoard = Backbone.Model.extend({
+            });
+            
+            app.PlayerPanel = Backbone.Model.extend({
+                defaults: {
+                    name: ''
+                }
+            });
+            
+            app.TextBox = Backbone.Model.extend({
+                defaults: {
+                    textBoxContent: ''
+                }
+            });
+            
+            //make this a collection of: 
+            //  GameBoard, PlayerPanel, and TextBox
+            app.Game = Backbone.Model.extend({
+                localStorage: new Store("backbone-sagashuffle")
+            });
+
+//--------------
+// Collections
+//--------------          
+/*
+            app.TodoList = Backbone.Collection.extend({
+                model: app.Todo,
+                localStorage: new Store("backbone-todo")
+            });
+*/
+            // instance of the Collection
+//            app.todoList = new app.TodoList();
+
+//--------------
+// Views
+//--------------
+
+            //This is for the Board, not for the whole App
+            app.BoardView = Backbone.View.extend({
+                el: '#gameBoard',
+                //item-template doesn't exist.
+                //do one for Game (input)
+                template: _.template($('#item-template').html()),
+                render: function(){
+                this.$el.html(this.template(this.model.toJSON()));
+                    this.input = this.$('.edit');
+                    return this; // enable chained calls
+                },
+                initialize: function(){
+                    this.model.on('change', this.render, this);
+                    this.model.on('destroy', this.remove, this);
+                },      
+                events: {
+                    'dblclick label' : 'edit',
+                    'keypress .edit' : 'updateOnEnter',
+                    'blur .edit' : 'close',
+                    'click .toggle': 'toggleCompleted',
+                    'click .destroy': 'destroy'
+                },
+                edit: function(){
+                    this.$el.addClass('editing');
+                    this.input.focus();
+                },
+                close: function(){
+                    var value = this.input.val().trim();
+                    if(value) {
+                        this.model.save({title: value});
+                    }
+                    this.$el.removeClass('editing');
+                },
+                updateOnEnter: function(e){
+                    if(e.which == 13){
+                        this.close();
+                    }
+                },
+                toggleCompleted: function(){
+                    this.model.toggle();
+                },
+                destroy: function(){
+                    this.model.destroy();
+                }
+            });
+
+            app.TextBoxView = Backbone.View.extend({
+                el: '#textBox',
+            });
+            
+            // renders the full list of todo items calling TodoView for each one.
+            //calls BoardView ONCE
+            //  after initializing its perameters
+            app.AppView = Backbone.View.extend({
+                el: '#sagashuffle',
+                initialize: function () {
+                    this.input = this.$('#new-todo');
+                    app.todoList.on('add', this.addAll, this);
+                    app.todoList.on('reset', this.addAll, this);
+                    app.todoList.fetch(); // Loads list from local storage
+                },
+                //append the input boxes here
+                //listen for ther values
+                //use those values to make the game
+                events: {
+                    'keypress #new-todo': 'createTodoOnEnter'
+                },
+                createTodoOnEnter: function(e){
+                    // ENTER_KEY = 13
+                    if ( e.which !== 13 || !this.input.val().trim() ) {
+                        return;
+                    }
+                    app.todoList.create(this.newAttributes());
+                    this.input.val(''); // clean input box
+                },
+                addOne: function(todo){
+                    var view = new app.TodoView({model: todo});
+                    $('#todo-list').append(view.render().el);
+                },
+                addAll: function(){
+                    this.$('#todo-list').html(''); // clean the todo list
+                    app.todoList.each(this.addOne, this);
+                },
+                newAttributes: function(){
+                    return {
+                        title: this.input.val().trim(),
+                        completed: false
+                    }
+                }
+            });
+            
+            
+            // renders individual todo items list (li)
+/*            app.TodoView = Backbone.View.extend({
+                tagName: 'li',
+                template: _.template($('#item-template').html()),
+                render: function(){
+                    this.$el.html(this.template(this.model.toJSON()));
+                    this.input = this.$('.edit');
+                    return this; // enable chained calls
+                },
+                initialize: function(){
+                    this.model.on('change', this.render, this);
+                    this.model.on('destroy', this.remove, this);
+                },      
+                events: {
+                    'dblclick label' : 'edit',
+                    'keypress .edit' : 'updateOnEnter',
+                    'blur .edit' : 'close',
+                    'click .toggle': 'toggleCompleted',
+                    'click .destroy': 'destroy'
+                },
+                edit: function(){
+                    this.$el.addClass('editing');
+                    this.input.focus();
+                },
+                close: function(){
+                    var value = this.input.val().trim();
+                    if(value) {
+                        this.model.save({title: value});
+                    }
+                    this.$el.removeClass('editing');
+                },
+                updateOnEnter: function(e){
+                    if(e.which == 13){
+                        this.close();
+                    }
+                },
+                toggleCompleted: function(){
+                    this.model.toggle();
+                },
+                destroy: function(){
+                    this.model.destroy();
+                }
+            });
+
+            // renders the full list of todo items calling TodoView for each one.
+            app.AppView = Backbone.View.extend({
+                el: '#todoapp',
+                initialize: function () {
+                    this.input = this.$('#new-todo');
+                    app.todoList.on('add', this.addAll, this);
+                    app.todoList.on('reset', this.addAll, this);
+                    app.todoList.fetch(); // Loads list from local storage
+                },
+                events: {
+                    'keypress #new-todo': 'createTodoOnEnter'
+                },
+                createTodoOnEnter: function(e){
+                    // ENTER_KEY = 13
+                    if ( e.which !== 13 || !this.input.val().trim() ) {
+                        return;
+                    }
+                    app.todoList.create(this.newAttributes());
+                    this.input.val(''); // clean input box
+                },
+                addOne: function(todo){
+                    var view = new app.TodoView({model: todo});
+                    $('#todo-list').append(view.render().el);
+                },
+                addAll: function(){
+                    this.$('#todo-list').html(''); // clean the todo list
+                    app.todoList.each(this.addOne, this);
+                },
+                newAttributes: function(){
+                    return {
+                        title: this.input.val().trim(),
+                        completed: false
+                    }
+                }
+            });*/
+
+//--------------
+// Initializers
+//--------------   
+
+            app.appView = new app.AppView(); 
+
+        </script>
+
+    </body>
+</html>
