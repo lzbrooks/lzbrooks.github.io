@@ -17,20 +17,20 @@ Only playable with a mynoise.net account.
 - [Athena](http://dakre.tumblr.com/Athena)
 - [Make Love, Not War](http://dakre.tumblr.com/MakeLoveNotWar)
 
-{{ assign ambiances_grouped = site.data.ambiances | group_by: 'group' }}
-{{ for group in ambiances_grouped }}
+{% assign ambiances_grouped = site.data.ambiances | group_by: 'group' %}
+{% for group in ambiances_grouped %}
 
 ## {{ group.name }}
 
-{{ for ambiance in group.items }}
+{% for ambiance in group.items %}
 
 ### {{ ambiance.name }}
 
-{{ ambiance.description }}
+{% ambiance.description %}
 
-{{ for sound in ambiance.sounds }}
+{% for sound in ambiance.sounds %}
 [x]({{ sound }})
-{{ endfor }}
+{% endfor %}
 
-{{ endfor }}
-{{ endfor }}
+{% endfor %}
+{% endfor %}
