@@ -2,8 +2,6 @@
 permalink: /soundscapes/
 ---
 
-# Soundscapes
-
 Only playable with a mynoise.net account.  
 (Takes a $1 donation or more to get access to everything.)
 
