@@ -1,5 +1,3 @@
-### Hello World
-
-## Testing... Testing...
-
-...Out Github Pages
+---
+layout: home
+---
