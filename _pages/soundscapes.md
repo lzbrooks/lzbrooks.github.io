@@ -1,3 +1,7 @@
+---
+permalink: /about/
+---
+
 # Soundscapes
 
 Only playable with a mynoise.net account.  
