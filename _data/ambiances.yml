@@ -260,7 +260,7 @@
     - 'http://mynoise.net/NoiseMachines/evilCharmRPGSoundscapeGenerator.php?c=0&l=00000061000000000000'
     - 'http://mynoise.net/NoiseMachines/deepOceanSoundscapeGenerator.php?c=0&l=52000000000000000000'
 
-- name: 'Germany's North Coast'
+- name: "Germany's North Coast"
   description: 
   group: 'Horror Dream'
   stack: 'http://mynoise.net/superGeneratorSeq.php?g1=oceanNoiseGenerator.php%3Fc%3D3%26l%3D00001625162525253325&d1=15&g2=froggyPondSoundscapeGenerator.php%3Fc%3D3%26l%3D00000000000000292824&d2=15&g3=windNoiseGenerator.php%3Fc%3D3%26l%3D14102228003217360000&d3=15&g4=&d4=1&g5=&d5=1'
