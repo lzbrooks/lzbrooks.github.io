@@ -14,12 +14,12 @@ permalink: /soundscapes/
 {% for ambiance in group.items %}
 
 <h3> {{ ambiance.name }} </h3>
-<p> {{ ambiance.description }} </p>
+<p> {{ ambiance.description }} <br>
 
-<p>
 {% for sound in ambiance.sounds %}
 <a href="{{ sound }}"> x </a>
 {% endfor %}
+
 </p>
 
 {% endfor %}
