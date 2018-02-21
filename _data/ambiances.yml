@@ -79,6 +79,294 @@
     - 'http://mynoise.net/NoiseMachines/ferryboatSoundscapeGenerator.php?c=0&amp;l=00000000162023252932'
     - 'http://mynoise.net/NoiseMachines/windchimesGenerator.php?c=0&amp;l=00000000000000000040'
 
+- name: 'Monica'
+  description: 'Temple in the rain on the shore'
+  group: 'Christmas Presents'
+  stack: 'http://mynoise.net/superGenerator.php?g1=windchimesGenerator.php%3Fc%3D3%26l%3D48310018000700070006&g2=throatSingingDroneGenerator.php%3Fc%3D3%26l%3D34343326002400120012&g3=rainNoiseGenerator.php%3Fc%3D3%26l%3D00352030373725201310&g4=oceanNoiseGenerator.php%3Fc%3D3%26l%3D00000015243335000000&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/windchimesGenerator.php?c=0&l=48310018000700070006'
+    - 'http://mynoise.net/NoiseMachines/throatSingingDroneGenerator.php?c=0&l=34343326002400120012'
+    - 'http://mynoise.net/NoiseMachines/rainNoiseGenerator.php?c=0&l=00352030373725201310'
+    - 'http://mynoise.net/NoiseMachines/oceanNoiseGenerator.php?c=0&l=00000015243335000000'
+
+- name: 'Peter'
+  description: 'Summer SCA War'
+  group: 'Christmas Presents'
+  stack: 'http://mynoise.net/superGenerator.php?g1=battlefieldRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D00000036332020270000&g2=windNoiseGenerator.php%3Fc%3D3%26l%3D00353700003400303632&g3=&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/battlefieldRPGSoundscapeGenerator.php?c=0&l=00000036332020270000'
+    - 'http://mynoise.net/NoiseMachines/windNoiseGenerator.php?c=0&l=00353700003400303632'
+
+- name: 'Vanessa'
+  description: 'Impending Damnation'
+  group: 'Christmas Presents'
+  stack: 'http://mynoise.net/superGenerator.php?g1=churchAtmosphereSoundGenerator.php%3Fc%3D3%26l%3D00400000300000000022&g2=evilCharmRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D19181828000013000000&g3=fireNoiseGenerator.php%3Fc%3D3%26l%3D56362800000000000000&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/churchAtmosphereSoundGenerator.php?c=0&l=00400000300000000022'
+    - 'http://mynoise.net/NoiseMachines/evilCharmRPGSoundscapeGenerator.php?c=0&l=19181828000013000000'
+    - 'http://mynoise.net/NoiseMachines/fireNoiseGenerator.php?c=0&l=56362800000000000000'
+
+- name: 'Jeff'
+  description: 'Chinese Courtyard'
+  group: 'Christmas Presents'
+  stack: 'http://mynoise.net/superGenerator.php?g1=eastAsiaTonalSoundscapeGenerator.php%3Fc%3D3%26l%3D00003300003000003000&g2=waterSpringStreamNoiseGenerator.php%3Fc%3D3%26l%3D00242300183332282723&g3=&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/eastAsiaTonalSoundscapeGenerator.php?c=0&l=00003300003000003000'
+    - 'http://mynoise.net/NoiseMachines/waterSpringStreamNoiseGenerator.php?c=0&l=00242300183332282723'
+
+- name: 'Yuri'
+  description: 'Haunted, rainy New York'
+  group: 'Christmas Presents'
+  stack: 'http://mynoise.net/superGenerator.php?g1=rainNoiseGenerator.php%3Fc%3D3%26l%3D50151514492638340215&g2=trafficNoiseGenerator.php%3Fc%3D3%26l%3D40404040302000002000&g3=evilCharmRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D00000000005147000000&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/rainNoiseGenerator.php?c=0&l=50151514492638340215'
+    - 'http://mynoise.net/NoiseMachines/trafficNoiseGenerator.php?c=0&l=40404040302000002000'
+    - 'http://mynoise.net/NoiseMachines/evilCharmRPGSoundscapeGenerator.php?c=0&l=00000000005147000000'
+
+- name: 'Marie'
+  description: 'Classic RPG Tavern'
+  group: 'Christmas Presents'
+  stack: 'http://mynoise.net/superGenerator.php?g1=fireNoiseGenerator.php%3Fc%3D3%26l%3D61564739331924303230&g2=cafeRestaurantNoiseGenerator.php%3Fc%3D3%26l%3D00320026200000221900&g3=polyrhythmBeatGenerator.php%3Fc%3D3%26l%3D40002829001800140000&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/fireNoiseGenerator.php?c=0&l=61564739331924303230'
+    - 'http://mynoise.net/NoiseMachines/cafeRestaurantNoiseGenerator.php?c=0&l=00320026200000221900'
+    - 'http://mynoise.net/NoiseMachines/polyrhythmBeatGenerator.php?c=0&l=40002829001800140000'
+
+- name: 'Clark'
+  description: 'Airship'
+  group: 'Christmas Presents'
+  stack: 'http://mynoise.net/superGenerator.php?g1=squeakingSailboatSoundscapeGenerator.php%3Fc%3D3%26l%3D21280000382121210000&g2=ferryboatSoundscapeGenerator.php%3Fc%3D3%26l%3D36000000000000000000&g3=&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/squeakingSailboatSoundscapeGenerator.php?c=0&l=21280000382121210000'
+    - 'http://mynoise.net/NoiseMachines/ferryboatSoundscapeGenerator.php?c=0&l=36000000000000000000'
+    - '
+
+- name: 'Taylor'
+  description: 'Alien Spaceship'
+  group: 'Christmas Presents'
+  stack: 'http://mynoise.net/superGenerator.php?g1=spaceshipNoiseGenerator.php%3Fc%3D3%26l%3D50362518000000000034&g2=sweepNoiseGenerator.php%3Fc%3D3%26l%3D00000000292900003524&g3=&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/spaceshipNoiseGenerator.php?c=0&l=50362518000000000034'
+    - 'http://mynoise.net/NoiseMachines/sweepNoiseGenerator.php?c=0&l=00000000292900003524'
+
+- name: 'Elizabeth'
+  description: 'Bees in the garden'
+  group: 'Christmas Presents'
+  stack: 
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/springWalkSoundscapeGenerator.php?c=0&l=35303643282222192000'
+
+- name: 'Phill'
+  description: 'The Serenity'
+  group: 'Christmas Presents'
+  stack: 'http://mynoise.net/superGenerator.php?g1=spaceshipNoiseGenerator.php%3Fc%3D3%26l%3D50443730000000000000&g2=eastAsiaTonalSoundscapeGenerator.php%3Fc%3D3%26l%3D00350000000000350000&g3=polyrhythmBeatGenerator.php%3Fc%3D3%26l%3D50322735001512111200&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/spaceshipNoiseGenerator.php?c=0&l=50443730000000000000'
+    - 'http://mynoise.net/NoiseMachines/eastAsiaTonalSoundscapeGenerator.php?c=0&l=00350000000000350000'
+    - 'http://mynoise.net/NoiseMachines/polyrhythmBeatGenerator.php?c=0&l=50322735001512111200'
+
+- name: 'Meng'
+  description: 'Fallen London'
+  group: 'Christmas Presents'
+  stack: 'http://mynoise.net/superGenerator.php?g1=dungeonRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D58372720370032312600&g2=evilCharmRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D29262640001837000000&g3=caveWaterNoiseGenerator.php%3Fc%3D3%26l%3D27182200170000000000&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/dungeonRPGSoundscapeGenerator.php?c=0&l=58372720370032312600'
+    - 'http://mynoise.net/NoiseMachines/evilCharmRPGSoundscapeGenerator.php?c=0&l=29262640001837000000'
+    - 'http://mynoise.net/NoiseMachines/caveWaterNoiseGenerator.php?c=0&l=27182200170000000000'
+
+- name: 'The Horned Horror'
+  description: 
+  group: 'Edra Darkwood'
+  stack: 'http://mynoise.net/superGenerator.php?g1=springWalkSoundscapeGenerator.php%3Fc%3D3%26l%3D00000043250024101010&g2=tibetSoundscapeGenerator.php%3Fc%3D3%26l%3D38150000000000000000&g3=dungeonRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D60000000000000000000&g4=&g5=&yt='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/springWalkSoundscapeGenerator.php?c=0&l=00000043250024101010'
+    - 'http://mynoise.net/NoiseMachines/tibetSoundscapeGenerator.php?c=0&l=38150000000000000000'
+    - 'http://mynoise.net/NoiseMachines/dungeonRPGSoundscapeGenerator.php?c=0&l=60000000000000000000'
+
+- name: 'The Golden Cage'
+  description: 
+  group: 'Gilded Hero'
+  stack: 'http://mynoise.net/superGenerator.php?g1=windNoiseGenerator.php%3Fc%3D3%26l%3D57393221000000000000&g2=dungeonRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D00000000000000272600&g3=&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/windNoiseGenerator.php?c=0&l=57393221000000000000'
+    - 'http://mynoise.net/NoiseMachines/dungeonRPGSoundscapeGenerator.php?c=0&l=00000000000000272600'
+
+- name: 'Liminal Spaces'
+  description: 
+  group: 'Gilded Hero'
+  stack: 'http://mynoise.net/superGenerator.php?g1=infiniteChoirDroneGenerator.php%3Fc%3D3%26l%3D50412400000004122200&g2=anamnesisSoundscapeGenerator.php%3Fc%3D3%26l%3D42330020203729000025&g3=&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/infiniteChoirDroneGenerator.php?c=0&l=50412400000004122200'
+    - 'http://mynoise.net/NoiseMachines/anamnesisSoundscapeGenerator.php?c=0&l=42330020203729000025'
+
+- name: 'Gun Gale Online'
+  description: 
+  group: 'Gilded Hero'
+  stack: 'http://mynoise.net/superGenerator.php?g1=transistorRhythmGenerator.php%3Fc%3D3%26l%3D00037012151229130423%26a%3D4&g2=saharaWindNoiseGenerator.php%3Fc%3D3%26l%3D69646252413229313953&g3=danaFortierSoundscapeGenerator.php%3Fc%3D3%26l%3D43000000455300000051&g4=battlefieldRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D72751600000000000000&g5=&yt='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/transistorRhythmGenerator.php?c=0&l=00037012151229130423&a=4'
+    - 'http://mynoise.net/NoiseMachines/saharaWindNoiseGenerator.php?c=0&l=69646252413229313953'
+    - 'http://mynoise.net/NoiseMachines/danaFortierSoundscapeGenerator.php?c=0&l=43000000455300000051'
+    - 'http://mynoise.net/NoiseMachines/battlefieldRPGSoundscapeGenerator.php?c=0&l=72751600000000000000'
+
+- name: 'Psychedelic Wasteland'
+  description: 'GGO background music'
+  group: 'Gilded Hero'
+  stack: 'http://mynoise.net/superGenerator.php?g1=saharaWindNoiseGenerator.php%3Fc%3D3%26l%3D4450354241272727384500&g2=paulNagleSequenceGenerator.php%3Fc%3D3%26l%3D4143395451261248401141%26a%3D4&g3=&g4=&g5=&yt='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/saharaWindNoiseGenerator.php?c=0&l=4450354241272727384500'
+    - 'http://mynoise.net/NoiseMachines/paulNagleSequenceGenerator.php?c=0&l=4143395451261248401141&a=4'
+
+- name: 'Persian city on the river'
+  description: 
+  group: "Hero's Journey"
+  stack: 'http://mynoise.net/superGenerator.php?g1=grasslandSoundscapeGenerator.php%3Fc%3D3%26l%3D00000000002700291515&g2=waterStreamNoiseGenerator.php%3Fc%3D3%26l%3D33310914261820000000&g3=eastAsiaTonalSoundscapeGenerator.php%3Fc%3D3%26l%3D00000022000000000000&g4=canyonDroneGenerator.php%3Fc%3D3%26l%3D00000000180000000000&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/grasslandSoundscapeGenerator.php?c=0&l=00000000002700291515'
+    - 'http://mynoise.net/NoiseMachines/waterStreamNoiseGenerator.php?c=0&l=33310914261820000000'
+    - 'http://mynoise.net/NoiseMachines/eastAsiaTonalSoundscapeGenerator.php?c=0&l=00000022000000000000'
+    - 'http://mynoise.net/NoiseMachines/canyonDroneGenerator.php?c=0&l=00000000180000000000'
+
+- name: 'Protagonist'
+  description: 'Wind and Clocks'
+  group: 'Horror Dream'
+  stack: 'http://mynoise.net/superGenerator.php?g1=clockTickTockNoiseGenerator.php%3Fc%3D3%26l%3D00244400000038263026&g2=windNoiseGenerator.php%3Fc%3D3%26l%3D68625737275624000000&g3=&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/clockTickTockNoiseGenerator.php?c=0&l=00244400000038263026'
+    - 'http://mynoise.net/NoiseMachines/windNoiseGenerator.php?c=0&l=68625737275624000000'
+
+- name: 'Antagonist'
+  description: 'Earth - Haunted Castle'
+  group: 'Horror Dream'
+  stack: 'http://mynoise.net/superGenerator.php?g1=dungeonRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D00000000004200090900&g2=evilCharmRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D00000030000000000000&g3=thunderNoiseGenerator.php%3Fc%3D3%26l%3D62585349441606000000&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/dungeonRPGSoundscapeGenerator.php?c=0&l=00000000004200090900'
+    - 'http://mynoise.net/NoiseMachines/evilCharmRPGSoundscapeGenerator.php?c=0&l=00000030000000000000'
+    - 'http://mynoise.net/NoiseMachines/thunderNoiseGenerator.php?c=0&l=62585349441606000000'
+
+- name: 'Demons'
+  description: 'Hot'
+  group: 'Horror Dream'
+  stack: 'http://mynoise.net/superGenerator.php?g1=evilCharmRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D31113753153200000000&g2=fireNoiseGenerator.php%3Fc%3D3%26l%3D80730300000000000000&g3=&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/evilCharmRPGSoundscapeGenerator.php?c=0&l=31113753153200000000'
+    - 'http://mynoise.net/NoiseMachines/fireNoiseGenerator.php?c=0&l=80730300000000000000'
+
+- name: 'Hounds'
+  description: 'Cold'
+  group: 'Horror Dream'
+  stack: 'http://mynoise.net/superGenerator.php?g1=dungeonRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D70640029290000000000&g2=evilCharmRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D00000061000000000000&g3=deepOceanSoundscapeGenerator.php%3Fc%3D3%26l%3D52000000000000000000&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/dungeonRPGSoundscapeGenerator.php?c=0&l=70640029290000000000'
+    - 'http://mynoise.net/NoiseMachines/evilCharmRPGSoundscapeGenerator.php?c=0&l=00000061000000000000'
+    - 'http://mynoise.net/NoiseMachines/deepOceanSoundscapeGenerator.php?c=0&l=52000000000000000000'
+
+- name: 'Germany's North Coast'
+  description: 
+  group: 'Horror Dream'
+  stack: 'http://mynoise.net/superGeneratorSeq.php?g1=oceanNoiseGenerator.php%3Fc%3D3%26l%3D00001625162525253325&d1=15&g2=froggyPondSoundscapeGenerator.php%3Fc%3D3%26l%3D00000000000000292824&d2=15&g3=windNoiseGenerator.php%3Fc%3D3%26l%3D14102228003217360000&d3=15&g4=&d4=1&g5=&d5=1'
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/oceanNoiseGenerator.php?c=0&l=00001625162525253325'
+    - 'http://mynoise.net/NoiseMachines/froggyPondSoundscapeGenerator.php?c=0&l=00000000000000292824'
+    - 'http://mynoise.net/NoiseMachines/windNoiseGenerator.php?c=0&l=14102228003217360000'
+
+- name: 'A Rainy Day at the Library'
+  description: 
+  group: 'Make Love, not War'
+  stack: 'http://mynoise.net/superGenerator.php?g1=churchAtmosphereSoundGenerator.php%3Fc%3D3%26l%3D63000000393900323214&g2=rainNoiseGenerator.php%3Fc%3D3%26l%3D41383334323100000000&g3=&g4=&g5=&yt='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/churchAtmosphereSoundGenerator.php?c=0&l=63000000393900323214'
+    - 'http://mynoise.net/NoiseMachines/rainNoiseGenerator.php?c=0&l=41383334323100000000'
+
+- name: 'First Beach'
+  description: 
+  group: 'Make Love, not War'
+  stack: 'http://mynoise.net/superGenerator.php?g1=windSeaRainNoiseGenerator.php%3Fc%3D3%26l%3D00000000002322423733&g2=springWalkSoundscapeGenerator.php%3Fc%3D3%26l%3D43120000000000000000&g3=evilCharmRPGSoundscapeGenerator.php%3Fc%3D3%26l%3D19062339000000000000&g4=&g5=&yt='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/windSeaRainNoiseGenerator.php?c=0&l=00000000002322423733'
+    - 'http://mynoise.net/NoiseMachines/springWalkSoundscapeGenerator.php?c=0&l=43120000000000000000'
+    - 'http://mynoise.net/NoiseMachines/evilCharmRPGSoundscapeGenerator.php?c=0&l=19062339000000000000'
+
+- name: 'Grey Noise'
+  description: 
+  group: 'Noise Blockers'
+  stack: 
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/greyNoiseGenerator.php?c=0&l=35322729504434332929'
+
+- name: 'Ultimate Rain'
+  description: 
+  group: 'Noise Blockers'
+  stack: 
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/rainNoiseGenerator.php?c=0&l=00000039513631190923'
+
+- name: 'The Far Shore'
+  description: 
+  group: 'Noise Blockers'
+  stack: 'http://mynoise.net/superGenerator.php?g1=infiniteChoirDroneGenerator.php%3Fc%3D3%26l%3D00152617120000264122%26a%3D4&g2=anamnesisSoundscapeGenerator.php%3Fc%3D3%26l%3D51464228324100000000&g3=deepOceanSoundscapeGenerator.php%3Fc%3D3%26l%3D39000000000000002900&g4=&g5=&yt='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/infiniteChoirDroneGenerator.php?c=0&l=00152617120000264122&a=4'
+    - 'http://mynoise.net/NoiseMachines/anamnesisSoundscapeGenerator.php?c=0&l=51464228324100000000'
+    - 'http://mynoise.net/NoiseMachines/deepOceanSoundscapeGenerator.php?c=0&l=39000000000000002900'
+
+- name: 'Sun on Grass'
+  description: 
+  group: 'Noise Blockers'
+  stack: 
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/circularBreathSoundscapeGenerator.php?c=0&l=42303324273228282827'
+
+- name: 'Voices from on High'
+  description: 
+  group: 'Noise Blockers'
+  stack: 'http://mynoise.net/superGenerator.php?g1=zarinaKopyrinaVocalSoundscape.php%3Fc%3D3%26l%3D25215625181636141139%26a%3D1&g2=howlingParaglideSoundscapeGenerator.php%3Fc%3D3%26l%3D23434328520744292600%26a%3D1&g3=&g4=&g5=&yt='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/zarinaKopyrinaVocalSoundscape.php?c=0&l=30345220513506233337&a=1'
+    - 'http://mynoise.net/NoiseMachines/howlingParaglideSoundscapeGenerator.php?c=0&l=16411449511222065400&a=1'
+
+- name: 'Rainforest Frogs'
+  description: 
+  group: 'Noise Blockers'
+  stack: 'http://mynoise.net/superGenerator.php?g1=jungleNoiseGenerator.php%3Fc%3D3%26l%3D44444034640000000000&g2=rainNoiseGenerator.php%3Fc%3D3%26l%3D53494544414447453533&g3=&g4=&g5=&yt='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/jungleNoiseGenerator.php?c=0&l=44444034640000000000'
+    - 'http://mynoise.net/NoiseMachines/rainNoiseGenerator.php?c=0&l=53494544414447453533'
+
+- name: 'Wafting Choir'
+  description: 
+  group: 'Noise Blockers'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/enliaVocalSoundscape.php'
+
+- name: 'Home Sounds'
+  description: 
+  group: 'Northwest Noises'
+  stack: 'http://mynoise.net/superGenerator.php?g1=springWalkSoundscapeGenerator.php%3Fc%3D3%26l%3D00000049320000000000&g2=whiteRainNoiseGenerator.php%3Fc%3D3%26l%3D43383800003435312622&g3=&g4=&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/whiteRainNoiseGenerator.php?c=0&l=43383800003435312622'
+    - 'http://mynoise.net/NoiseMachines/springWalkSoundscapeGenerator.php?c=0&l=00000049320000000000'
+
+- name: 'Mom's Work'
+  description: 'Busy Bees'
+  group: 'Northwest Noises'
+  stack: 'http://mynoise.net/superGenerator.php?g1=waterSpringStreamNoiseGenerator.php%3Fc%3D3%26l%3D27000024414542351615&g2=thunderNoiseGenerator.php%3Fc%3D3%26l%3D62585349441606000000&g3=grasslandSoundscapeGenerator.php%3Fc%3D3%26l%3D13000000000000104009&g4=springWalkSoundscapeGenerator.php%3Fc%3D3%26l%3D00003700000000000024&g5='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/waterSpringStreamNoiseGenerator.php?c=0&l=27000024414542351615'
+    - 'http://mynoise.net/NoiseMachines/thunderNoiseGenerator.php?c=0&l=62585349441606000000'
+    - 'http://mynoise.net/NoiseMachines/grasslandSoundscapeGenerator.php?c=0&l=13000000000000104009'
+    - 'http://mynoise.net/NoiseMachines/springWalkSoundscapeGenerator.php?c=0&l=00003700000000000024'
+
+- name: 'Monastery'
+  description: 'Inner peace...'
+  group: 'Northwest Noises'
+  stack: 'http://mynoise.net/superGenerator.php?g1=windchimesGenerator.php%3Fc%3D3%26l%3D4755470037454600000000&g2=palmGardenSoundscapeGenerator.php%3Fc%3D3%26l%3D0502110000540027000041%26a%3D4&g3=throatSingingDroneGenerator.php%3Fc%3D3%26l%3D6546393428121203171500&g4=&g5=&yt='
+  sounds:
+    - 'http://mynoise.net/NoiseMachines/windchimesGenerator.php?c=0&l=4755470037454600000000'
+    - 'http://mynoise.net/NoiseMachines/palmGardenSoundscapeGenerator.php?c=0&l=0502110000540027000041&a=4'
+    - 'http://mynoise.net/NoiseMachines/throatSingingDroneGenerator.php?c=0&l=6546393428121203171500'
+
 
 
 
