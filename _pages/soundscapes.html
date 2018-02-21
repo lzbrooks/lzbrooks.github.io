@@ -14,7 +14,11 @@ permalink: /soundscapes/
 {% for ambiance in group.items %}
 
 <h3> {{ ambiance.name }} </h3>
+{% if ambiance.description %}
 <p> {{ ambiance.description }} <br>
+{% else %}
+<p>
+{% endif %}
 
 {% for sound in ambiance.sounds %}
 <a href="{{ sound }}"> x </a>
