@@ -3,8 +3,8 @@ title: Soundscapes
 permalink: /soundscapes/
 ---
 
-<p> "Only playable with a mynoise.net account." <br>
-"(Takes a $1 donation or more to get access to everything.)" </p>
+<p> Only playable with a mynoise.net account. <br>
+(Takes a $1 donation or more to get access to everything.) </p>
 
 {% assign ambiances_grouped = site.data.ambiances | group_by: 'group' %}
 {% for group in ambiances_grouped %}
@@ -14,14 +14,15 @@ permalink: /soundscapes/
 {% for ambiance in group.items %}
 
 <h3> {{ ambiance.name }} </h3>
-
 <p> {{ ambiance.description }} </p>
 
+<p>
 {% for sound in ambiance.sounds %}
-
 <a href="{{ sound }}"> x </a>
+{% endfor %}
+</p>
 
 {% endfor %}
-{% endfor %}
+
 {% endfor %}
 
