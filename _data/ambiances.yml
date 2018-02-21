@@ -347,7 +347,7 @@
     - 'http://mynoise.net/NoiseMachines/whiteRainNoiseGenerator.php?c=0&l=43383800003435312622'
     - 'http://mynoise.net/NoiseMachines/springWalkSoundscapeGenerator.php?c=0&l=00000049320000000000'
 
-- name: 'Mom's Work'
+- name: "Mom's Work"
   description: 'Busy Bees'
   group: 'Northwest Noises'
   stack: 'http://mynoise.net/superGenerator.php?g1=waterSpringStreamNoiseGenerator.php%3Fc%3D3%26l%3D27000024414542351615&g2=thunderNoiseGenerator.php%3Fc%3D3%26l%3D62585349441606000000&g3=grasslandSoundscapeGenerator.php%3Fc%3D3%26l%3D13000000000000104009&g4=springWalkSoundscapeGenerator.php%3Fc%3D3%26l%3D00003700000000000024&g5='
