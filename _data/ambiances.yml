@@ -366,6 +366,39 @@
     - 'http://mynoise.net/NoiseMachines/palmGardenSoundscapeGenerator.php?c=0&l=0502110000540027000041&a=4'
     - 'http://mynoise.net/NoiseMachines/throatSingingDroneGenerator.php?c=0&l=6546393428121203171500'
 
+- name: 'Kōtetsujō'
+  description: 
+  group: 'Kabaneri of the Iron Fortress'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/oilTankerMachineryNoiseGenerator.php?c=0&l=2829233000290000301100&d=0'
+    - 'https://mynoise.net/NoiseMachines/industrialRevolutionNoiseGenerator.php?c=0&l=4100273100000000151800&d=0'
+
+- name: 'Start Screen Serenity'
+  description: 
+  group: 'Kingdom Hearts'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/acousticPianoSoundscapeGenerator.php?c=0&l=4140000021400000002800&d=2'
+    - 'https://mynoise.net/NoiseMachines/tidalNoiseGenerator.php?c=0&l=3532302500230000232000&d=0'
+
+- name: 'Summer Ceremony'
+  description: 
+  group: 'Kimi no Nawa'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/buddhistTempleCeremonySoundscapeGenerator.php?c=0&l=3723252525003000000000&d=0'
+    - 'https://mynoise.net/NoiseMachines/ricefieldSoundscapeGenerator.php?c=0&l=2607123219320835373300&d=0'
+
+- name: 'Empty Hallways'
+  description: 
+  group: 'A Lonely Home'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/squeakingSailboatSoundscapeGenerator.php?c=0&l=3600000000430025000000&d=0'
+    - 'https://mynoise.net/NoiseMachines/bambooChimesGenerator.php?c=0&l=0000000002260024002900&d=0'
+    - 'https://mynoise.net/NoiseMachines/binauralBrainwaveGenerator.php?c=0&l=3725151005030000000000&d=0'
+
 
 
 
