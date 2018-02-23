@@ -390,14 +390,65 @@
     - 'https://mynoise.net/NoiseMachines/buddhistTempleCeremonySoundscapeGenerator.php?c=0&l=3723252525003000000000&d=0'
     - 'https://mynoise.net/NoiseMachines/ricefieldSoundscapeGenerator.php?c=0&l=2607123219320835373300&d=0'
 
+- name: 'Soothing Rain'
+  description: 'Heavy rain through the trees, warm like a flame.'
+  group: 'A Lonely Home'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/rainyRiverbankSoundscapeGenerator.php?c=0&l=0025323130300000340000&d=0'
+    - 'https://mynoise.net/NoiseMachines/usenbenzSoundDesignGenerator.php?c=0&l=4336323200002323252600&d=0'
+
 - name: 'Empty Hallways'
-  description: 
+  description: 'Cold and lonely'
   group: 'A Lonely Home'
   stack: 
   sounds:
     - 'https://mynoise.net/NoiseMachines/squeakingSailboatSoundscapeGenerator.php?c=0&l=3600000000430025000000&d=0'
     - 'https://mynoise.net/NoiseMachines/bambooChimesGenerator.php?c=0&l=0000000002260024002900&d=0'
     - 'https://mynoise.net/NoiseMachines/binauralBrainwaveGenerator.php?c=0&l=3725151005030000000000&d=0'
+
+- name: 'Frenetic'
+  description: "Sounds a house shouldn't make, frantic and colourful"
+  group: 'A Lonely Home'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/industrialRevolutionNoiseGenerator.php?c=0&l=4900410033003537321900&d=0'
+    - 'https://mynoise.net/NoiseMachines/clockTickTockNoiseGenerator.php?c=0&l=0041004500333540393700&d=0'
+
+- name: 'Sludge'
+  description: 'Slow, dripping depression'
+  group: 'A Lonely Home'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/stalactitesCaveChimeSoundscapeGenerator.php?c=0&l=2828280000000000000000&d=0'
+    - 'https://mynoise.net/NoiseMachines/singingBowlsDroneGenerator.php?c=0&l=5045320023000021000000&d=0'
+
+- name: 'Back in Time'
+  description: 'A full, happy house, and a full, happy home.'
+  group: 'A Lonely Home'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/clockTickTockNoiseGenerator.php?c=0&l=0040000000003500000000&d=0'
+    - 'https://mynoise.net/NoiseMachines/bambooChimesGenerator.php?c=0&l=5043403232374033334300&d=0'
+    - 'https://mynoise.net/NoiseMachines/isabelleKnightHypnosisTalkGenerator.php?c=0&l=3722292619303427371900&d=0'
+
+- name: 'Doubt'
+  description: 'A... full house, and a full home.'
+  group: 'A Lonely Home'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/clockTickTockNoiseGenerator.php?c=0&l=0000000000404000000000&d=0'
+    - 'https://mynoise.net/NoiseMachines/bambooChimesGenerator.php?c=0&l=5000000032000033004300&d=0'
+    - 'https://mynoise.net/NoiseMachines/isabelleKnightHypnosisTalkGenerator.php?c=0&l=4400440044004800000000&d=0'
+
+- name: 'Heartbreak'
+  description: 'A house. A home.'
+  group: 'A Lonely Home'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/clockTickTockNoiseGenerator.php?c=0&l=0000000000404000000000&d=0'
+    - 'https://mynoise.net/NoiseMachines/bambooChimesGenerator.php?c=0&l=0000000000000000410000&d=0'
+
 
 
 
