@@ -396,7 +396,7 @@
   stack: 
   sounds:
     - 'https://mynoise.net/NoiseMachines/rainyRiverbankSoundscapeGenerator.php?c=0&l=0025323130300000340000&d=0'
-    - 'https://mynoise.net/NoiseMachines/usenbenzSoundDesignGenerator.php?c=0&l=4336003100002323252600&d=0'
+    - 'https://mynoise.net/NoiseMachines/usenbenzSoundDesignGenerator.php?c=3&l=4035303200002223262600&m=&d=0'
 
 - name: 'Empty Hallways'
   description: 'Cold and lonely'
