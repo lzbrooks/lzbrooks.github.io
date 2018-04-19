@@ -464,6 +464,14 @@
   sounds:
     - 'https://mynoise.net/NoiseMachines/gregorianChoirGenerator.php?c=0&l=2322280031403400304100&d=-5'
 
+- name: 'Ancient Ones'
+  description: 'When the key to sacrificing your soul is heavy machinery'
+  group: 'Three Ways to Lose'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/industrialRevolutionNoiseGenerator.php?c=0&l=5800330032252825303500&d=0'
+    - 'https://mynoise.net/NoiseMachines/prehistoricCavemenMusicGenerator.php?c=0&l=0727392313142300000041&a=4&am=3&d=0'
+
 
 
 
