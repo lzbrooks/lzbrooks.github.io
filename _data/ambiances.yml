@@ -480,6 +480,14 @@
     - 'https://mynoise.net/NoiseMachines/telecasterLicksMusicGenerator.php?c=0&l=3866003800005327000021&a=2&am=3&d=0'
     - 'https://mynoise.net/NoiseMachines/trafficNoiseGenerator.php?c=0&l=4040404030200000200000&d=0'
 
+- name: 'Guilt'
+  description: 'I stand here a penitent man'
+  group: 'Three Ways to Lose'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/churchAtmosphereSoundGenerator.php?c=0&l=0044350000000033270011&a=1&am=2&d=0'
+    - 'https://mynoise.net/NoiseMachines/himalayanVoicesSongGenerator.php?c=0&l=0000332100240034000021&a=2&am=3&d=0'
+    - 'https://mynoise.net/NoiseMachines/himalayanVoicesSongGenerator.php?c=0&l=0000371900640021000021&a=2&am=3&d=0'
 
 
 
