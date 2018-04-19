@@ -449,7 +449,13 @@
     - 'https://mynoise.net/NoiseMachines/clockTickTockNoiseGenerator.php?c=0&l=0000000000404000000000&d=0'
     - 'https://mynoise.net/NoiseMachines/bambooChimesGenerator.php?c=0&l=0000000000000000410000&d=0'
 
-
+- name: 'A Ghost in the Woods'
+  description: 'Lost and alone'
+  group: 'Three Ways to Lose'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/autumnWalkSoundscapeGenerator.php?c=0&l=0024002500002300000341&a=4&am=3&d=0'
+    - 'https://mynoise.net/NoiseMachines/waterphoneSoundscapeGenerator.php?c=0&l=4041363242003652510000&d=0'
 
 
 
