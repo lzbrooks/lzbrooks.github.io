@@ -457,6 +457,13 @@
     - 'https://mynoise.net/NoiseMachines/autumnWalkSoundscapeGenerator.php?c=0&l=0024002500002300000341&a=4&am=3&d=0'
     - 'https://mynoise.net/NoiseMachines/waterphoneSoundscapeGenerator.php?c=0&l=4041363242003652510000&d=0'
 
+- name: 'A Cursed Place'
+  description: 'The sounds of a holy place distorted'
+  group: 'Three Ways to Lose'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/gregorianChoirGenerator.php?c=0&l=2322280031403400304100&d=-5'
+
 
 
 
