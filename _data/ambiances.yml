@@ -496,6 +496,13 @@
   sounds:
     - 'https://mynoise.net/NoiseMachines/chapelVoicesSoundscape.php?c=0&l=3217163228283541464100&d=-3'
 
+- name: "It's Snowing in the City"
+  description: 'Nothing left and the day is dead'
+  group: 'Three Ways to Lose'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/zarinaKopyrinaVocalSoundscape.php?c=0&l=0000000000343737000021&a=2&am=3&d=-3'
+    - 'https://mynoise.net/NoiseMachines/telecasterLicksMusicGenerator.php?c=0&l=3817450000000503000021&a=2&am=3&d=-3'
 
 
 
