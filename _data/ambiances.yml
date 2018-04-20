@@ -489,6 +489,13 @@
     - 'https://mynoise.net/NoiseMachines/himalayanVoicesSongGenerator.php?c=0&l=0000332100240034000021&a=2&am=3&d=0'
     - 'https://mynoise.net/NoiseMachines/himalayanVoicesSongGenerator.php?c=0&l=0000371900640021000021&a=2&am=3&d=0'
 
+- name: 'Absolution'
+  description: 'With the first rays of the sun'
+  group: 'Three Ways to Lose'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/chapelVoicesSoundscape.php?c=0&l=3217163228283541464100&d=-3'
+
 
 
 
