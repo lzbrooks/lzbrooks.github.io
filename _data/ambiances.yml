@@ -512,6 +512,84 @@
     - 'https://mynoise.net/NoiseMachines/japaneseSuikinkutsuSoundscapeGenerator.php?c=0&l=0030000028433900335000&d=0'
     - 'https://mynoise.net/NoiseMachines/intergalacticSoundscapeGenerator.php?c=0&l=4833220029002400004100&d=0'
     
+- name: "Darkness"
+  description: 'Out on the edge of the night lake'
+  group: 'Agmundr'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/loonLakeCanoeSoundscapeGenerator.php?c=0&l=2300140020000034502600&d=0'
+    - 'https://mynoise.net/NoiseMachines/fireNoiseGenerator.php?c=0&l=5342303326000000000000&d=0'
+    
+- name: "Shadows"
+  description: 'Twilit forest's edge'
+  group: 'Agmundr'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/summerWalkSoundscapeGenerator.php?c=0&l=5627150000004500000000&d=0'
+    - 'https://mynoise.net/NoiseMachines/enchantedForestSoundscapeGenerator.php?c=0&l=0000202229192921232600&d=0'
+    
+- name: "Hiding"
+  description: 'Cold stone palaces full of intrigue'
+  group: 'Agmundr'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/churchAtmosphereSoundGenerator.php?c=0&l=0000000049364622210000&d=0'
+    - 'https://mynoise.net/NoiseMachines/sledDogsSoundscapeGenerator.php?c=0&l=4300000000000000003500&d=0'
+    - 'https://mynoise.net/NoiseMachines/dungeonRPGSoundscapeGenerator.php?c=0&l=5740190000414400000000&d=0'
+
+- name: "Capture"
+  description: 'Trapped in the web of a mad king'
+  group: 'Agmundr'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/windchimesGenerator.php?c=0&l=1814092100282530263400&d=0'
+    - 'https://mynoise.net/NoiseMachines/tibetSoundscapeGenerator.php?c=0&l=5041353525353516353500&d=-3'
+    
+- name: "Winter Contemplation"
+  description: 'Downpour in the mountainside rainforest'
+  group: 'Agmundr'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/jungleNoiseGenerator.php?c=0&l=4740302316141623180900&d=0'
+    - 'https://mynoise.net/NoiseMachines/japaneseGardenSoundscapeGenerator.php?c=0&l=2023453324234441213000&d=0'
+    - 'https://mynoise.net/NoiseMachines/japaneseSuikinkutsuSoundscapeGenerator.php?c=0&l=1722000000000018000021&a=2&am=3&d=0'
+    
+- name: "Summer Trade"
+  description: 'Sailing on the clockwise current'
+  group: 'Agmundr'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/squeakingSailboatSoundscapeGenerator.php?c=0&l=5046253518151827354300&d=0'
+    - 'https://mynoise.net/NoiseMachines/polyrhythmBeatGenerator.php?c=0&l=4141333300250000000000&d=0'
+    - 'https://mynoise.net/NoiseMachines/deepOceanSoundscapeGenerator.php?c=0&l=0000000000004912000021&a=2&am=3&d=0'
+    
+- name: "Winter Travel"
+  description: 'Blind forest navigation by waystation drums'
+  group: 'Agmundr'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/enchantedForestSoundscapeGenerator.php?c=0&l=3416000000250015313100&d=0'
+    - 'https://mynoise.net/NoiseMachines/polyrhythmBeatGenerator.php?c=0&l=4221313337000000000011&a=1&am=3&d=0'
+    
+- name: "Nightmare"
+  description: 'Trapped in stone halls, drowning amid intrigue, seeking refuge'
+  group: 'Agmundr'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/churchAtmosphereSoundGenerator.php?c=0&l=0000000032342932330041&a=4&am=3&d=0'
+    - 'https://mynoise.net/NoiseMachines/tibetSoundscapeGenerator.php?c=0&l=4134292921292925292941&a=4&am=3&d=-3'
+    - 'https://mynoise.net/NoiseMachines/fireNoiseGenerator.php?c=0&l=5342303326000000000000&d=0'
+    
+- name: "Daydream"
+  description: 'Homesick and lovesore...'
+  group: 'Agmundr'
+  stack: 
+  sounds:
+    - 'https://mynoise.net/NoiseMachines/japaneseGardenSoundscapeGenerator.php?c=0&l=1619372720193634172541&a=4&am=3&d=0'
+    - 'https://mynoise.net/NoiseMachines/jungleNoiseGenerator.php?c=0&l=3933251914121419150741&a=4&am=3&d=0'
+    - 'https://mynoise.net/NoiseMachines/stalactitesCaveChimeSoundscapeGenerator.php?c=0&l=3131343132282628293041&a=4&am=3&d=0'
+        
+
 
 
 
